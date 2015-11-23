@@ -1,21 +1,9 @@
-.region object {
-	border: dotted 3px #cc3300;
+object, #map img {
+	border: dotted 3px #3d8b40;
 }
-.concept object, #map img{
-	border: dotted 3px #2e75b6;
-}
-.concept h1,.region h1,.blog h1{
-	border-left: solid 5px;
+.container h1{
+	border-left: solid 5px #3d8b40;
 	padding-left: 0.5em;
-}
-.concept h1{
-	border-color: #2e75b6;
-}
-.region h1{
-	border-color: #cc3300;
-}
-.blog h1{
-	border-color: #548235;
 }
 
 .navbar-brand {
@@ -43,22 +31,13 @@ footer span{
 	background-color:rgba(0,0,0,0.8);
 }
 
-.concept,.region,.blog{
+.container{
 	background-color:rgba(255,255,255,0.4);
 	padding-top:1em;
 	padding-left:2em;
 	padding-bottom:1em;
 	margin-bottom:1em;
-}
-
-.concept{
-	border: 3px solid #2e75b6;
-}
-.region{
-	border: 3px solid #cc3300;
-}
-.blog{
-	border: 3px solid #548235;
+	border: 3px solid #3d8b40;
 }
 
 ul.menu li{
@@ -69,37 +48,22 @@ ul.menu span{
 	width:135px;
 }
 
-.concept li img{
-	border: 3px solid #2e75b6;
+.container li img{
+	border: 3px solid #3d8b40;
 	width:90px;
 	height:90px;
 }
-.concept a{
+.container a{
+	color: #3d8b40;
 	font-weight:bold;
 }
-.region li img{
-	border: 3px solid #cc3300;
-	width:90px;
-	height:90px;
-}
-.region a{
-	font-weight:bold;
-	color:#cc3300;
-}
-.blog li img{
-	border: 3px solid #548235;
-	width:90px;
-	height:90px;
-}
-.blog a{
-	font-weight:bold;
-	color:#548235;
-}
+
 .panel{
 	background-color: rgba(255,255,255,0.75);
 }
 
 body{
+	z-index:0;
     -webkit-background-size: 10px 10px;
     -moz-background-size: 10px 10px;
     background-size: 10px 10px; /* Controls the size of the stripes */
